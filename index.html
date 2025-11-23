@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유영민의 꿈 발표</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    
+    <style>
+        /* 1학년 영민이를 위한 귀여운 디자인 */
+        body {
+            font-family: 'Jua', sans-serif;
+            background: linear-gradient(to bottom, #A1C4FD, #C2E9FB);
+            margin: 0;
+            padding: 20px 0;
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            background-color: white;
+            width: 90%;
+            max-width: 600px;
+            margin: 0 auto;
+            border-radius: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            padding: 25px;
+            border: 6px solid #FFD700;
+        }
+
+        h1 {
+            color: #1E90FF;
+            font-size: 2.2rem;
+            margin: 10px 0;
+            text-shadow: 2px 2px 0px #fff;
+        }
+
+        h2 {
+            color: #555;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        /* 아이가 읽어야 할 대본 박스 */
+        .script-box {
+            background-color: #FFF9C4; /* 연한 노란색 */
+            border-radius: 15px;
+            padding: 15px;
+            margin: 15px 0;
+            font-size: 1.4rem;
+            line-height: 1.6;
+            color: #333;
+            border: 2px dashed #FBC02D;
+            word-break: keep-all; 
+        }
+        
+        .script-label {
+            font-size: 0.9rem;
+            color: #F57F17;
+            margin-bottom: 5px;
+            display: block;
+            font-weight: bold;
+        }
+
+        img, video {
+            width: 100%;
+            border-radius: 15px;
+            margin: 10px 0;
+            border: 4px solid #eee;
+            box-sizing: border-box;
+        }
+
+        hr {
+            border: 0;
+            height: 3px;
+            background: #E0E0E0;
+            margin: 40px 0;
+            border-radius: 5px;
+        }
+
+        .clap-btn {
+            background-color: #FF6B6B;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.6rem;
+            border-radius: 50px;
+            cursor: pointer;
+            font-family: 'Jua', sans-serif;
+            box-shadow: 0 6px 0 #c94545;
+            transition: transform 0.1s;
+            margin-top: 20px;
+            width: 80%;
+        }
+        
+        .clap-btn:active {
+            transform: translateY(6px);
+            box-shadow: none;
+        }
+
+        .section-title {
+            background-color: #1E90FF;
+            color: white;
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        /* 오디오 플레이어 스타일 */
+        audio {
+            width: 60%;
+            height: 30px;
+            margin-bottom: 5px;
+        }
+        .bgm-label {
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="bgm-label">▼ 발표 배경음악 켜기 (소리는 작게 나옵니다 🎵)</div>
+        <audio id="bgmAudio" controls loop>
+            <source src="music.mp3" type="audio/mp3">
+        </audio>
+
+        <h1>🏃‍♂️ 나의 꿈 발표 🏃‍♀️</h1>
+        <h2>1학년 5반 유영민</h2>
+        
+        <div class="script-box">
+            <span class="script-label">📢 영민이가 읽어주세요</span>
+            안녕하세요! 1학년 유영민입니다.<br>
+            저의 꿈은 <b>"줄넘기 국가대표"</b>가 되는 것입니다!
+        </div>
+
+        <hr>
+
+        <div class="section-title">🔥 땀 흘리며 도전해요!</div>
+        
+        <video controls poster="photo.jpg">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+
+        <div class="script-box">
+            <span class="script-label">📢 영민이가 읽어주세요</span>
+            저는 <b>'더 챌린저 학원'</b>에서 줄넘기를 배우고 있어요.<br>
+            이 영상은 제가 떨리지만 꾹 참고<br>
+            <b>10급 시험</b>에 도전하는 모습입니다.<br>
+            한번 보시겠어요?
+        </div>
+
+        <hr>
+
+        <div class="section-title">🏆 해냈다! 10급 합격!</div>
+        
+        <img src="photo.jpg" alt="10급 자격증 사진">
+
+        <div class="script-box">
+            <span class="script-label">📢 영민이가 읽어주세요</span>
+            짜잔! 매일매일 연습했더니<br>
+            드디어 <b>10급 자격증</b>을 땄어요!<br>
+            차근차근 하나씩 도전해서 성공하니까<br>
+            정말 기분이 좋았어요.
+        </div>
+
+        <hr>
+
+        <div class="section-title">🇰🇷 미래의 국가대표 유영민</div>
+        
+        <div class="script-box">
+            <span class="script-label">📢 영민이가 읽어주세요</span>
+            앞으로 더 어려운 기술도 연습해서,<br>
+            꼭 태극마크를 단 <b>국가대표 선수</b>가 될 거예요.<br>
+            꿈을 향해 달려가는 저를 응원해 주세요!<br>
+            감사합니다!
+        </div>
+
+        <br>
+        <button class="clap-btn" onclick="alert('👏 와아! 영민이 멋지다! 국가대표 가즈아! 👏')">
+            영민이에게 박수 보내기! 👏👏
+        </button>
+
+    </div>
+
+    <script>
+        // 페이지가 열리면 배경음악 소리 크기를 20%로 낮춤 (0.0 ~ 1.0)
+        // 너무 작으면 0.3 정도로 숫자를 올려주세요!
+        document.getElementById('bgmAudio').volume = 0.2; 
+    </script>
+
+</body>
+</html>
